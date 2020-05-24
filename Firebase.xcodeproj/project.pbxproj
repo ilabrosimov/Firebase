@@ -13,6 +13,7 @@
 		047CD6A1247AEEE900CC370D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047CD69F247AEEE900CC370D /* Main.storyboard */; };
 		047CD6A3247AEEEA00CC370D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047CD6A2247AEEEA00CC370D /* Assets.xcassets */; };
 		047CD6A6247AEEEA00CC370D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047CD6A4247AEEEA00CC370D /* LaunchScreen.storyboard */; };
+		04D58FF9247AF41800053BCD /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58FF8247AF41800053BCD /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		047CD6A2247AEEEA00CC370D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047CD6A5247AEEEA00CC370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047CD6A7247AEEEA00CC370D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D58FF8247AF41800053BCD /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,32 @@
 		047CD698247AEEE900CC370D /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				047CD699247AEEE900CC370D /* AppDelegate.swift */,
-				047CD69B247AEEE900CC370D /* SceneDelegate.swift */,
-				047CD69D247AEEE900CC370D /* LoginViewController.swift */,
-				047CD69F247AEEE900CC370D /* Main.storyboard */,
-				047CD6A2247AEEEA00CC370D /* Assets.xcassets */,
-				047CD6A4247AEEEA00CC370D /* LaunchScreen.storyboard */,
+				04D58FFA247AF42100053BCD /* View Controllers */,
+				04D58FFB247AF44100053BCD /* Supporting FIles */,
 				047CD6A7247AEEEA00CC370D /* Info.plist */,
 			);
 			path = Firebase;
+			sourceTree = "<group>";
+		};
+		04D58FFA247AF42100053BCD /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				047CD69D247AEEE900CC370D /* LoginViewController.swift */,
+				04D58FF8247AF41800053BCD /* TaskViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		04D58FFB247AF44100053BCD /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				047CD699247AEEE900CC370D /* AppDelegate.swift */,
+				047CD69B247AEEE900CC370D /* SceneDelegate.swift */,
+				047CD69F247AEEE900CC370D /* Main.storyboard */,
+				047CD6A2247AEEEA00CC370D /* Assets.xcassets */,
+				047CD6A4247AEEEA00CC370D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting FIles";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047CD69E247AEEE900CC370D /* LoginViewController.swift in Sources */,
+				04D58FF9247AF41800053BCD /* TaskViewController.swift in Sources */,
 				047CD69A247AEEE900CC370D /* AppDelegate.swift in Sources */,
 				047CD69C247AEEE900CC370D /* SceneDelegate.swift in Sources */,
 			);

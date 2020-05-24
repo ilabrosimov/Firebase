@@ -15,11 +15,15 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        warnLabel.alpha = 0
         // Do any additional setup after loading the view.
     }
 
     @IBAction func loginTapped(_ sender: UIButton) {
+//        self.performSegue(withIdentifier: "taskSegue", sender: nil)
+        
     }
+    
     @IBAction func registerTapped(_ sender: UIButton) {
     }
     
