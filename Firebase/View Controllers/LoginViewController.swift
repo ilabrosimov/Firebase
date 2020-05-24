@@ -20,7 +20,7 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func loginTapped(_ sender: UIButton) {
-//        self.performSegue(withIdentifier: "taskSegue", sender: nil)
+      self.performSegue(withIdentifier: "taskSegue", sender: nil)
         
     }
     
