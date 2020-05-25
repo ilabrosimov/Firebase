@@ -58,20 +58,20 @@
 		047CD698247AEEE900CC370D /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
-				04D58FFA247AF42100053BCD /* View Controllers */,
+				04D58FFA247AF42100053BCD /* Controllers */,
 				04D58FFB247AF44100053BCD /* Supporting FIles */,
 				047CD6A7247AEEEA00CC370D /* Info.plist */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
 		};
-		04D58FFA247AF42100053BCD /* View Controllers */ = {
+		04D58FFA247AF42100053BCD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				047CD69D247AEEE900CC370D /* LoginViewController.swift */,
 				04D58FF8247AF41800053BCD /* TaskViewController.swift */,
 			);
-			path = "View Controllers";
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		04D58FFB247AF44100053BCD /* Supporting FIles */ = {
