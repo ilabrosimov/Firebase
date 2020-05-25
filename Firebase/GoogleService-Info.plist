@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>189732114408-oi5iohgpvpq3uq9jrvit05k55c33knpr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.189732114408-oi5iohgpvpq3uq9jrvit05k55c33knpr</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDUnhyYCTy2zPVYV2mph8_lV0_1s4Rhprg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>189732114408</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ilabrosimov.Firebase</string>
+	<key>PROJECT_ID</key>
+	<string>fir-project-7b531</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-project-7b531.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:189732114408:ios:c3ba886383aafca25a1e5d</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-project-7b531.firebaseio.com</string>
+</dict>
+</plist>

@@ -14,6 +14,7 @@
 		047CD6A3247AEEEA00CC370D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047CD6A2247AEEEA00CC370D /* Assets.xcassets */; };
 		047CD6A6247AEEEA00CC370D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047CD6A4247AEEEA00CC370D /* LaunchScreen.storyboard */; };
 		04D58FF9247AF41800053BCD /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D58FF8247AF41800053BCD /* TaskViewController.swift */; };
+		04E3D148247BFB41008F1203 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E3D147247BFB40008F1203 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		047CD6A5247AEEEA00CC370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047CD6A7247AEEEA00CC370D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D58FF8247AF41800053BCD /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		04E3D147247BFB40008F1203 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				04D58FFA247AF42100053BCD /* Controllers */,
 				04D58FFB247AF44100053BCD /* Supporting FIles */,
 				047CD6A7247AEEEA00CC370D /* Info.plist */,
+				04E3D147247BFB40008F1203 /* GoogleService-Info.plist */,
 			);
 			path = Firebase;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				047CD6A6247AEEEA00CC370D /* LaunchScreen.storyboard in Resources */,
+				04E3D148247BFB41008F1203 /* GoogleService-Info.plist in Resources */,
 				047CD6A3247AEEEA00CC370D /* Assets.xcassets in Resources */,
 				047CD6A1247AEEE900CC370D /* Main.storyboard in Resources */,
 			);
